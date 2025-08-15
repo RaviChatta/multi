@@ -2,15 +2,16 @@
     "bot1": {
         "source": "https://github.com/RaviChatta/advance-filestore-bot.git#New2.0",
         "env": {
-            "TOKEN": ""
+            "TOKEN": "",
+            "PORT": "8000"
         },
         "run": "main.py"
-    
     },
     "bot2": {
         "source": "https://github.com/erennew/LUFFY-.git#LUFFYstore",
         "env": {
-            "TOKEN": ""
+            "TOKEN": "",
+            "PORT": "8001"
         },
         "run": "bot.py"
     }
