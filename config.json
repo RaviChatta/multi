@@ -12,6 +12,6 @@
         "env": {
             "TOKEN": ""
         },
-        "run": "main.py"
+        "run": "bot.py"
     }
 }
