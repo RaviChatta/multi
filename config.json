@@ -13,12 +13,5 @@
             "TOKEN": ""
         },
         "run": "main.py"
-    },
-    "bot3": {
-        "source": "https://github.com/RaviChatta/rav.git#Fix",
-        "env": {
-            "TOKEN": ""
-        },
-        "run": "bot.py"
     }
 }
