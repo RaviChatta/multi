@@ -22,7 +22,7 @@
         "branch": "version1.0",
         "env": {
             "TOKEN": "",
-            "PORT": "8002"
+            "PORT": "8087"
         },
         "run": "main.py"
     }
