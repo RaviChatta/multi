@@ -24,6 +24,6 @@
             "TOKEN": "",
             "PORT": "8087"
         },
-        "run": "start.sh"
+        "run": "main.py"
     }
 }
