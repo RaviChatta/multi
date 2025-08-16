@@ -16,14 +16,5 @@
             "PORT": "8001"
         },
         "run": "bot.py"
-    },
-    "bot3": {
-        "source": "https://github.com/RaviChatta/Man.git",
-        "branch": "TEST",
-        "env": {
-            "TOKEN": "",
-            "PORT": "8087"
-        },
-        "run": "main.py"
     }
 }
