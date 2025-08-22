@@ -16,5 +16,14 @@
             "PORT": "8001"
         },
         "run": "bot.py"
+    },
+    "bot3": {
+        "source": "https://github.com/RaviChatta/Man.git",
+        "branch": "new",
+        "env": {
+            "TOKEN": "",
+            "PORT": "8002"
+        },
+        "dockerfile": "Dockerfile"
     }
 }
