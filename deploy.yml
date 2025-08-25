@@ -1,0 +1,13 @@
+name: tg-worker-bot
+
+services:
+  - name: tg-worker
+    git:
+      branch: Newmulti
+      repository: https://github.com/RaviChatta/multi.git
+    instance_type: free   # free = 0.1 core / 512MB RAM
+    env:
+      - name: WORKERS
+        value: "3"    # adjust, don’t go above 3 on free plan
+    run_command: >
+      supervisord -c /etc/supervisor/supervisord.conf
