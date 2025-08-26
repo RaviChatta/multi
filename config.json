@@ -25,5 +25,14 @@
             "PORT": "8002"
         },
         "run": "bot.py"
+    },
+    "bot4": {
+        "source": "https://github.com/RaviChatta/rav.git",
+        "branch": "fix",
+        "env": {
+            "TOKEN": "",
+            "PORT": "8003"
+        },
+        "run": "bot.py"
     }
 }
