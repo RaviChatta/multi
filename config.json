@@ -25,6 +25,14 @@
             "PORT": "8002"
         },
         "run": "bot.py"
-
+    },
+    "bot4": {
+        "source": "https://github.com/Erenluffy/filtertemplate.git",
+        "branch": "main",
+        "env": {
+            "TOKEN": "",
+            "PORT": "8003"
+        },
+        "run": "main.py"
     }
 }
