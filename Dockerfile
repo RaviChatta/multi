@@ -11,7 +11,9 @@ RUN apt-get update && apt-get install -y \
     libpng-dev \
     poppler-utils \
     wget \
+    ffmpeg \
     && rm -rf /var/lib/apt/lists/*
+
 
 # Upgrade pip, setuptools, wheel
 RUN python -m pip install --upgrade pip setuptools wheel
