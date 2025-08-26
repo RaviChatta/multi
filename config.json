@@ -18,12 +18,12 @@
         "run": "bot.py"
     },
     "bot3": {
-        "source": "https://github.com/RaviChatta/Man.git",
-        "branch": "new",
+        "source": "https://github.com/Erenluffy/finalpost.git",
+        "branch": "main",
         "env": {
             "TOKEN": "",
             "PORT": "8002"
         },
-        "run": "main.py"
+        "run": "bot.py"
     }
 }
