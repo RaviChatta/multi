@@ -34,5 +34,13 @@
             "PORT": "8003"
         },
         "run": "main.py"
-    }
+    },
+    "bot4": {
+        "source": "https://github.com/RaviChatta/Man.git",
+        "branch": "new",
+        "env": {
+            "TOKEN": "",
+            "PORT": "8004"
+        },
+        "run": "main.py"
 }
