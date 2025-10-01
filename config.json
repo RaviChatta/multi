@@ -1,47 +1,11 @@
 {
-    "bot1": {
-        "source": "https://github.com/RaviChatta/advance-filestore-bot.git",
-        "branch": "New2.0",
-        "env": {
-            "TOKEN": "",
-            "PORT": "8000"
-        },
-        "run": "main.py"
-    },
-    "bot2": {
-        "source": "https://github.com/erennew/LUFFY-.git",
-        "branch": "LUFFYstore",
-        "env": {
-            "TOKEN": "",
-            "PORT": "8001"
-        },
-        "run": "bot.py"
-    },
-    "bot3": {
-        "source": "https://github.com/Erenluffy/finalpost.git",
-        "branch": "main",
-        "env": {
-            "TOKEN": "",
-            "PORT": "8002"
-        },
-        "run": "bot.py"
-    },
     "bot4": {
-        "source": "https://github.com/Erenluffy/filtertemplate.git",
+        "source": "https://github.com/erennew/multianime2u.git",
         "branch": "main",
         "env": {
             "TOKEN": "",
             "PORT": "8003"
         },
-        "run": "main.py"
-    },
-    "bot5": {
-        "source": "https://github.com/Erenluffy/index-.git",
-        "branch": "main",
-        "env": {
-            "TOKEN": "",
-            "PORT": "8004"
-        },
-        "run": "bot.py"
+        "run": "python3 main.py"
     }
 }
