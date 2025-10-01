@@ -1,5 +1,5 @@
 {
-    "bot4": {
+    "bot1": {
         "source": "https://github.com/erennew/multianime2u.git",
         "branch": "main",
         "env": {
